@@ -1,0 +1,25 @@
+alter table user add position varchar(50);
+alter table user add joined date;
+
+update user set position='软件工程师',joined='2016-3-21' where name='wangkang';
+update user set position='总经理',joined='2006-1-1' where name='chenxunan';
+update user set position='经营管理部副总经理',joined='2014-5-5' where name='xieandi';
+update user set position='传媒公司总经理',joined='2015-2-1' where name='dongguiqi';
+update user set position='财务经理',joined='2010-4-28' where name='quxiaoxia';
+update user set position='总经办主任',joined='2015-1-26' where name='huangshuojie';
+update user set position='出纳',joined='2015-4-28' where name='chenxiaofang';
+update user set position='会计',joined='2016-3-21' where name='nieyun';
+update user set position='行政后勤',joined='2015-9-6' where name='fenghaixia';
+update user set position='业务员',joined='2010-12-20' where name='chenfang';
+update user set position='业务员',joined='2013-11-4' where name='wangfei';
+update user set position='库管',joined='2015-9-7' where name='liuhongbo';
+update user set position='内勤',joined='2015-4-25' where name='wangli';
+update user set position='技术服务经理',joined='2014-2-17' where name='wangbeijun';
+update user set position='区域经理',joined='2014-11-14' where name='wangdelin';
+update user set position='总监',joined='2014-5-25' where name='wangbenjun';
+update user set position='客服商务经理',joined='2014-9-2' where name='luona';
+update user set position='仓库管理员',joined='2014-9-1' where name='fanzhengwei';
+update user set position='客服专员',joined='2015-3-19' where name='licaihong';
+update user set position='区域经理',joined='2016-3-3' where name='guoguang';
+update user set position='客服专员',joined='2016-3-10' where name='dengyuying';
+update user set position='客服专员',joined='2015-6-8' where name='koushasha';
