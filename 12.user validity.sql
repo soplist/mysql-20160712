@@ -1,0 +1,1 @@
+alter table user add validity boolean default true;
